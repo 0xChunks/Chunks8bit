@@ -81,7 +81,7 @@ Reserved: 0000
 
 Binary:   0000 0011 0001 0000
 Hex:      0x0310
-
+```
 ## 🧮 ALU Instructions: Register–Immediate
 
 These instructions perform an ALU operation between a register and an 8-bit immediate value. The result is stored in the destination register. They use a fixed 16-bit instruction format.
@@ -122,7 +122,7 @@ IMM:      0011 1100
 
 Full Binary: 1000 0100 0011 1100
 Hex:         0x843C
-
+```
 
 ## 🗃️ Memory Access Instructions: LOAD & STORE
 
@@ -167,7 +167,7 @@ Offset:   1010
 
 Binary:   1110 0010 0101 1010
 Hex:      0xE25A
-
+```
 ## 🔁 Control Flow Instructions: Jumps, Calls, Returns
 
 These instructions alter the program counter (PC), allowing for conditional branching, loops, and subroutine calls. All use a 2-byte format with signed 8-bit **PC-relative offsets**.
@@ -216,7 +216,7 @@ Offset:   0b1111_1000  (2's complement -8)
 
 Binary:   1100 0000 1111 1000
 Hex:      0xC0F8
-
+```
 ## 🗂️ Full Opcode Table
 
 | OPCODE | Type   | Mnemonic | Description                        |
